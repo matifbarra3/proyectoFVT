@@ -62,7 +62,7 @@ header{
 header .logo{
     margin: 0;
     padding: 25px 30px;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold;
     color: rgb(0, 0, 0);
 }
@@ -71,6 +71,7 @@ header .container{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 20px;
 }
 
 header nav{
@@ -95,10 +96,10 @@ header a:hover{
 #hero{
     display: flex;
     align-items: center;
-     justify-content: center;
+    justify-content: center;
     text-align: center;
     flex-direction: column;   
-    height: 90vh;
+    height: 100vh;
     color: rgb(255, 255, 255);
     background-image: url("media/2019_09_09_Papel-para-Libros_BLOG.png");
     background-repeat: no-repeat;
@@ -137,7 +138,7 @@ header a:hover{
     background-color: rgb(39, 39, 39);
     color: white;
     text-align: center;
-    padding: 150px 12px;
+    padding: 200px 12px;
 }
 
 #que-hacemos p{
@@ -192,6 +193,7 @@ header a:hover{
 }
 
 #como-ayudar .container{
+    padding: 200px 12px;
     text-align: center;
 }
 
@@ -258,8 +260,9 @@ header a:hover{
         justify-content: center;
     }
 
-    #quienes-somos h2{
+    #somos4c h2{
         margin-top: 0px;
+        font-size: 4em;
     }
 
     #quienes-somos .img-container{
@@ -337,6 +340,10 @@ header a:hover{
         text-align: left;
     }
 
+    #como-ayudar h3{
+        font-size: 4em;
+    }
+
     #como-ayudar ul{
         margin-left: 100px;
         
@@ -351,7 +358,8 @@ header a:hover{
     }
 
     #contacto .container{
-        justify-content: flex-end;
+        padding: 200px 12px;
+        text-align: center;
     }
 }
 
@@ -367,8 +375,7 @@ header a:hover{
     font-family: 'acme' ;
     display: block;
     white-space: nowrap;
-    border-right: 4px solid;
-    width:10.6ch;
+    width:35%;
     animation-duration: 3.5s;
     animation-iteration-count:infinite;
     animation-name: typing;
@@ -380,6 +387,45 @@ header a:hover{
     from { width: 0}
     }
     
-    @keyFrames blink {
-     50% { border-color: transparent}
+
+
+    #como-ayudar h3 {
+    font-family: 'acme' ;
+    white-space: nowrap;
+    width:80%;
+    animation-duration: 3.5s;
+    animation-iteration-count:infinite;
+    animation-name: typing;
+    overflow:hidden;
+    }
+
+    #que-hacemos h2{
+        font-family: 'acme' ;
+        white-space: nowrap;
+        width:100%;
+        animation-duration: 3.5s;
+        animation-iteration-count:infinite;
+        animation-name: typing;
+        overflow:hidden;
+            
+    }
+
+    #somos4c h2{
+        font-family: 'acme' ;
+        white-space: nowrap;
+        width:100%;
+        animation-duration: 4s;
+        animation-iteration-count:infinite;
+        animation-name: typing;
+        overflow:hidden;
+    }
+
+    #hero h1{
+        font-family: 'acme' ;
+        white-space: nowrap;
+        width:100vh;
+        animation-duration: 4s;
+        animation-iteration-count:infinite;
+        animation-name: typing;
+        overflow:hidden;
     }
